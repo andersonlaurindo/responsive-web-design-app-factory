@@ -1,0 +1,33 @@
+.welcome  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--white);
+    text-align: center;
+    
+    background-color: var(--bg-welcome-mobile);
+
+    padding-top: 12.25rem;
+    padding-bottom: 2.5rem;
+}
+
+.welcome__title {
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
+.welcome__text {
+    font-size: 1.25rem;
+    line-height: normal;
+
+    margin: 0 auto 2.5rem;
+}
+
+.welcome__button {
+    width: 100%;
+}
